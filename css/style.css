@@ -10,12 +10,14 @@ a{text-decoration: none;}
 .primary{}
 .secondary{}
 .flex-nav{}
-.flex-nav ul{}
+.flex-nav ul{display: flex;flex-direction: column;}
 .flex-nav li{}
-.flex-nav a{}}
+.flex-nav a{}
 .flex-nav span{}
 
 /*STYLES*/
+
+body{background-color: #a7a7a7;}
 
 /*IMAGE STYLE*/
 
