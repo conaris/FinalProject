@@ -1,0 +1,21 @@
+/*GLOBAL STYLES*/
+
+*{padding: 0;margin: 0;box-sizing: border-box;}
+ul{list-style: none;}
+a{text-decoration: none;}
+
+/*FLEX*/
+
+.container{}
+.primary{}
+.secondary{}
+.flex-nav{}
+.flex-nav ul{}
+.flex-nav li{}
+.flex-nav a{}}
+.flex-nav span{}
+
+/*STYLES*/
+
+/*IMAGE STYLE*/
+
