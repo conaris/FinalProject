@@ -10,15 +10,28 @@ a{text-decoration: none;}
 .primary{}
 .secondary{}
 .flex-nav{}
-.flex-nav ul{display: flex;flex-direction: column;}
 .flex-nav li{}
 .flex-nav a{}
 .flex-nav span{}
+.main-header{background-color: grey;}
+.main-header, .flex-nav{display: flex;flex-direction: column;}
+.flex-nav{position: absolute;bottom:0; height: 700px;display: flex;justify-content: space-around;background-color:}
 
 /*STYLES*/
 
 body{background-color: #a7a7a7;}
 
+
 /*IMAGE STYLE*/
 
-.header img{max-width: 130px;}
+/*.main-header,
+.flex-nav {
+    display: flex;
+    flex-direction: row;
+	}
+.main-header {
+    flex-direction: row;
+    justify-content: space-between;}*/
+.logo{max-width: 130px;max-height:130px;}
+.search{display: flex;justify-content: space-between;align-items: center;}
+.searchme{}
