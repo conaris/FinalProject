@@ -13,10 +13,17 @@ a{text-decoration: none;}
 .flex-nav li{}
 .flex-nav a{}
 .flex-nav span{}
-.main-header{background-color: grey;}
-.main-header, .flex-nav{display: flex;flex-direction: column;}
-.flex-nav{position: absolute;bottom:0; height: 700px;display: flex;justify-content: space-around;background-color:}
-
+/*.flex-nav is a flex item inside the flex container, so it should not have properties that belong to the flex container.*/
+.main-header
+/*.flex-nav*/ {
+    display: flex;
+    flex-direction: column; /*Column instead of row.*/
+    }
+.main-header {
+    /*align-items:center; Do not need this, default is flex-start.*/
+    justify-content: space-between;
+    height: 100%; /*Height, just for demonstrational purposes.*/
+}
 /*STYLES*/
 
 body{background-color: #a7a7a7;}
