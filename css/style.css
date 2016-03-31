@@ -6,8 +6,9 @@ a{text-decoration: none;}
 
 /*FLEX*/
 
-.main-content{display: flex;width: 90%;margin: 0 auto;margin-left:9.2%;}
-.col{display:flex;flex-direction: column;align-items:center;background-color:aliceblue;flex: 1;height: 30%;}
+.main-content{display: flex;width: 90%;margin: 0 auto;margin-left:9.2%;flex-wrap: wrap;}
+.col{display:flex;flex-direction: column;align-items:center; background-color:aliceblue;flex: 1;margin-left:2%;margin-top:2%;}
+.primary{}
 .word{background-color: aqua;}
 .flex-nav{order: 5;width: 4.3%;margin-left: 1.0%;}
 .flex-nav li{}
@@ -25,7 +26,7 @@ a{text-decoration: none;}
 /*STYLES*/
 
 body{background-color: #a7a7a7;}
-input{width:100%;
+.search input{width:100%;
     height:10%;
     font-size:70px;
     border-radius: 5px;
@@ -54,4 +55,9 @@ form{display:flex;
    6px 6px 0 rgb(22, 160, 133),
    7px 7px 0 rgb(22, 160, 133);
 }
-
+.button{width:80%; margin-top:15%;margin-bottom: 3%;}
+.button input{width:100%; height:5%;
+    font-size:1em;
+    border-radius: 5px;
+    font-style: italic;
+    color:grey;}
